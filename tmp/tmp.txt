@@ -1,0 +1,26 @@
+// items := TodoItems{
+// 	ID:          1,
+// 	Title:       "Belajar Golang",
+// 	Description: "Belajar Golang dari dasar",
+// 	Status:      "Done",
+// 	CreatedAt:   &time.Time{},
+// 	UpdatedAt:   &time.Time{},
+// }
+
+// jsonData, err := json.Marshal(items)
+// if err != nil {
+// 	fmt.Println(err)
+// 	return
+// }
+
+// fmt.Println(string(jsonData))
+
+// jsonStr := "{\"id\":1,\"title\":\"Belajar Golang\",\"description\":\"Belajar Golang dari dasar\",\"status\":\"Done\",\"created_at\":\"0001-01-01T00:00:00Z\",\"updated_at\":\"0001-01-01T00:00:00Z\"}"
+
+// var itemsParse TodoItems
+// if err = json.Unmarshal([]byte(jsonStr), &itemsParse); err != nil {
+// 	fmt.Println(err)
+// 	return
+// }
+
+// fmt.Println(itemsParse)
